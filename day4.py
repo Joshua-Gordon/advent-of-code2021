@@ -38,6 +38,7 @@ class Board():
 def part2():
     pass
 
+@profile
 def day4():
     data = open('input.txt').readlines()
     draw = [int(c) for c in data.pop(0).split(",") if len(c)>0]
