@@ -1,0 +1,10 @@
+
+def part2():
+    pass
+
+def day():
+    pass
+
+if __name__ == '__main__':
+    day()
+    part2()
