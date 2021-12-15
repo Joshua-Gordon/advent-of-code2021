@@ -121,7 +121,11 @@ def real_part_2():
     count = Counter(pairs)
     letters = Counter(poly)
     print(count)
-    for i in range(40):
+    import re
+    p10 = re.compile(r"^10*$")
+    for i in range(1000000):
+        if p10.match(str(i)):
+            print(i)
         newcount = Counter()
         for name,val in count.items():
             for ((p1,p2),out) in rules:
