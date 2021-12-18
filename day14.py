@@ -123,7 +123,7 @@ def real_part_2():
     print(count)
     import re
     p10 = re.compile(r"^10*$")
-    for i in range(1000000):
+    for i in range(40):
         if p10.match(str(i)):
             print(i)
         newcount = Counter()
